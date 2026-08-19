@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Определение IP";
+}
+
+<div style="text-align: center; margin-top: 50px; font-family: sans-serif;">
+    <h1>Ваш IP-адрес:</h1>
+    <h2 style="color: #007acc; font-size: 2.5rem;">@ViewBag.ClientIp</h2>
+
+    <p style="color: #666; margin-top: 20px;">
+        Запрос обработан сервером на стороне .NET Core.
+    </p>
+
+    <button onclick="window.location.reload();" style="padding: 10px 20px; cursor: pointer;">
+        Обновить страницу
+    </button>
+</div>
